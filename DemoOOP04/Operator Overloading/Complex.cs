@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,6 +30,27 @@ namespace DemoOOP04.Operator_Overloading
                 Imag = (left)?.Imag ?? 0 - (right)?.Imag ?? 0
             };
         }
+
+        public static Complex operator ++(Complex complex)
+        {
+            if (complex is not null)
+            {
+                complex.Real++;
+                return complex;
+            }
+            return new Complex();
+        }
+
+        public static Complex operator --(Complex complex)
+        {
+            if (complex is not null)
+            {
+                complex.Real--;
+                return complex;
+            }
+            return new Complex();
+        }
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";

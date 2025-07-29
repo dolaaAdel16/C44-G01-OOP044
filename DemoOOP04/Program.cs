@@ -31,7 +31,7 @@ namespace DemoOOP04
 
             //string Y = "hello" + "world";
 
-            //Complex C01 = new Complex() {Real = 3 , Imag = 4 };
+            //Complex C01 = new Complex() { Real = 3, Imag = 4 };
 
             //Complex C02 = new Complex() { Real = 6, Imag = 7 };
 
@@ -41,6 +41,24 @@ namespace DemoOOP04
             //Complex C03 = C01 - null;
             //Console.WriteLine(C03) ; 
             #endregion
+
+            #region V05
+            //Console.WriteLine("V05");
+
+            //int X = 12;
+            //X++; 
+
+            //Console.WriteLine(X);
+
+            //C01++; 
+            //Console.WriteLine(C01);
+
+            //Complex C03 = C01--;
+            //Console.WriteLine(C03);
+
+            #endregion
+
+
 
         } 
 
