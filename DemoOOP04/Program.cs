@@ -33,7 +33,7 @@ namespace DemoOOP04
 
             //Complex C01 = new Complex() { Real = 3, Imag = 4 };
 
-            //Complex C02 = new Complex() { Real = 6, Imag = 7 };
+            //Complex C02 = new Complex() { Real = 3, Imag = 7 };
 
             //Console.WriteLine(C01); 
             //Console.WriteLine(C02) ;
@@ -57,6 +57,21 @@ namespace DemoOOP04
             //Console.WriteLine(C03);
 
             #endregion
+
+            #region V06
+            //Console.WriteLine("V06");
+
+            //if (C01 >= C02)
+            //{
+
+            //    Console.WriteLine("C01 IS GREATER THAN C02");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("C01 IS NOT GREATER THAN C02");
+            //} 
+            #endregion
+
 
 
 
