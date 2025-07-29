@@ -1,4 +1,5 @@
-﻿using DemoOOP04.Operator_Overloading;
+﻿using DemoOOP04.Mapping;
+using DemoOOP04.Operator_Overloading;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -72,10 +73,36 @@ namespace DemoOOP04
             //} 
             #endregion
 
+            #region V07
+
+            //Console.WriteLine("V07");
+
+            //double X = 12;
+
+            //int Y = (int)X; 
+
+            //Complex C01 = new Complex() { Real = 3 , Imag = 4};
+
+            //string S = (string)C01;
+
+            //Console.WriteLine(S);
+
+            //int X = (int)C01;   
+
+            //int X  =(int) new Complex() { Real = 3, Imag = 4 };    
+
+            //User user = new User();
+
+            //UserDto userdto = new UserDto()
+            //{
+            //    Email  = user.Email,
+            //    Name = user.Name,
+            //    PhoneNumber = user.PhoneNumber
+            //};
 
 
+            #endregion        } 
 
-        } 
-
+        }
     }
 }
