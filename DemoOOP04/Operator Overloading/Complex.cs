@@ -93,6 +93,16 @@ namespace DemoOOP04.Operator_Overloading
             return left.Real != right.Real || left.Imag != right.Imag;
         }
 
+        public static explicit operator string (Complex complex)
+        {
+            return complex.ToString();
+        }
+
+        public static explicit operator int(Complex complex)
+        {
+            return complex.Real;
+        }
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";
