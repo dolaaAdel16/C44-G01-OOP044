@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoOOP04.Sealed
 {
-    internal class TypeD : TypeC
+    internal class TypeD  //typec
     {
     }
 }
