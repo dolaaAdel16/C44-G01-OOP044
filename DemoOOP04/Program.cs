@@ -1,5 +1,6 @@
 ﻿using DemoOOP04.Mapping;
 using DemoOOP04.Operator_Overloading;
+using DemoOOP04.Static;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -103,6 +104,31 @@ namespace DemoOOP04
 
             #endregion        } 
 
+            #region V08
+            //Console.WriteLine("V08");   
+
+            //Utilities U01 = new Utilities();
+            //Utilities U02 = new Utilities();
+            //Utilities U03 = new Utilities();
+
+            //Console.WriteLine(U01.CmToInch(254));
+            //Console.WriteLine(U02.CmToInch(254));
+            //Console.WriteLine(U03.CmToInch(254));
+
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.CmToInch(254));
+            //Console.WriteLine(Utilities.CmToInch(254));
+
+            //Console.WriteLine(U01.PI);
+            //Console.WriteLine(U02.PI);
+            //Console.WriteLine(U03.PI);
+
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI);
+
+            //Utilities U01 = new Utilities(); 
+            #endregion
         }
     }
 }
