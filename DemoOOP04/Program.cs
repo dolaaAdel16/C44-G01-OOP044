@@ -1,5 +1,6 @@
 ﻿using DemoOOP04.Mapping;
 using DemoOOP04.Operator_Overloading;
+using DemoOOP04.Partial;
 using DemoOOP04.Static;
 using System;
 using System.Collections.Generic;
@@ -134,7 +135,13 @@ namespace DemoOOP04
             //Console.WriteLine("V09"); 
             #endregion
 
+            #region V10
+            //Console.WriteLine("V10");
 
+            //Employee employee = new Employee();
+            //employee.
+
+            #endregion
 
         }
     }
